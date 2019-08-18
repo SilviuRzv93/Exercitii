@@ -1,16 +1,12 @@
 public class Matrix<T> {
 
-    private int [][] arr ;
-
+    private T [][] arr ;
     public Matrix(int row ,int cols){
 
-        arr=new int[row][cols];
+        arr = (T[][])new Object[1][2];
     }
 
-    public int[][] getArr() {
-        return arr.clone();
+    public T[][] getArr() {
+        return arr;
     }
-
-    private T [][] a ;
-
 }
