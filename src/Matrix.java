@@ -1,4 +1,4 @@
-public class Matrix {
+public class Matrix<T> {
 
     private int [][] arr ;
 
@@ -11,7 +11,6 @@ public class Matrix {
         return arr.clone();
     }
 
-      T arr[][];
-
+    private T [][] a ;
 
 }
