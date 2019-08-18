@@ -19,7 +19,13 @@ public class Matrix<T> {
     }
     public T[]getRow(int row){
 
-        return row;
+        T[] result = (T[])new Object[arr.length];
+        return result;
+    }
+
+    public T[]getColumn(int cols){
+        T[] result = (T[])new Object[arr.length];
+        return result;
     }
 
 }
