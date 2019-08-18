@@ -11,5 +11,7 @@ public class Matrix {
         return arr.clone();
     }
 
+      T arr[][];
+
 
 }
