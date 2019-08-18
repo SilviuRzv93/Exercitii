@@ -1,8 +1,12 @@
-public class TicTacToeBoar extends SquareMatrix {
+public class TicTacToeBoard extends SquareMatrix<Character> {
 
 
 
 
+public TicTacToeBoard(){
+
+    super(3);
+}
 
 
 
