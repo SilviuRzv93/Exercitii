@@ -9,4 +9,17 @@ public class Matrix<T> {
     public T[][] getArr() {
         return arr;
     }
+
+    public void write(T value , int row , int cols){
+
+
+
+
+
+    }
+    public T[]getRow(int row){
+
+        return row;
+    }
+
 }
