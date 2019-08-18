@@ -8,10 +8,8 @@ public class Matrix {
     }
 
     public int[][] getArr() {
-        return arr;
+        return arr.clone();
     }
 
-    public void setArr(int[][] arr) {
-        this.arr = arr;
-    }
+
 }
